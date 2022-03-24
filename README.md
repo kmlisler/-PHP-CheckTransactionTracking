@@ -1,6 +1,8 @@
 # PHP-DBDesign-Implement-CheckTransactionTracking
 Database design and implemeting the screen that users can record checks, give to currents for payment, receive payment from bank/lawyer and track all their movements. Some parts of the project are binded to other Controller.php or Model.php files (for example: Bank List for payment,Current list, lawyer list. ) Description of the project and screenshots here. Since this project is currently used by the company(MomentumSoft), source codes are private for security issues. You can send me an email for the share source code repository.
 
+This project was developed using the PHP Codeigniter framework in accordance with the Model-View-Controller structure.
+
 This screens are used for check record/transactions tracking for each user. All currents and banks informations are pulled from database existing records/tables dynamically due to each user's id. All bank balance transactions are saved in database,but they are not processed now. This CheckCard and CheckMovements models in database creates the necessary infrastructure for processing movements and transactions.
 Use Cases for Customer Check and Own Check
 
